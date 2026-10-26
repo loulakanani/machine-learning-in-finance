@@ -21,8 +21,9 @@ Below is the structured list of my weekly projects:
 * **Description:** An exploratory data analysis focusing on Apple's stock price behavior (Daily Lows). The notebook investigates price movements over time to identify trends and periods of extreme deviation.
 
 ### Week 2: Demographic Vulnerabilities and Payment Delay Patterns
-* **File:** [Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb](Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb)
-* **Data Source:**
-* **Description:**
+* **File:** [`Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb`](Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb)
+* **Data Source:**  Anonymized customer dataset containing demographic metrics (e.g., age, income, location) and transaction/billing history.
+* **Description:** An exploratory data analysis focusing on identifying core correlations between specific demographic factors and recurring patterns or trends in payment delays.
+
 ---
 *Note: This repository will be updated weekly with new scripts and models as the course progresses.*
