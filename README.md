@@ -25,5 +25,11 @@ Below is the structured list of my weekly projects:
 * **Data Source:**  Anonymized customer dataset containing demographic metrics (e.g., age, income, location) and transaction/billing history.
 * **Description:** An exploratory data analysis focusing on identifying core correlations between specific demographic factors and recurring patterns or trends in payment delays.
 
+### Week 3: Credit Risk Analysis and Pipeline Engineering
+
+* **File:** [Credit Risk Analysis and Pipeline Engineering.ipynb](Credit%20Risk%20Analysis%20and%20Pipeline%20Engineering.ipynb)
+* **Data Source:** UCI Credit Card Default Dataset.
+* **Description:** An advanced data engineering and analysis project focused on building structured preprocessing pipelines (`ColumnTransformer`, `Pipeline`, `StandardScaler`, `OneHotEncoder`) to prevent data leakage. Additionally, it investigates default behavior in high credit limit outliers, evaluating whether their risk stems from excessive borrowing or liquidity management constraints.
+
 ---
 *Note: This repository will be updated weekly with new scripts and models as the course progresses.*
