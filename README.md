@@ -27,7 +27,7 @@ Below is the structured list of my weekly projects:
 
 ### Week 3: Credit Risk Analysis and Pipeline Engineering
 
-* **File:** [`Credit Risk Analysis and Pipeline Engineering.ipynb`](Credit Risk Analysis and Pipeline Engineering.ipynb.ipynb)
+* **File:** [`Credit Risk Analysis and Pipeline Engineering.ipynb`](Credit Risk Analysis and Pipeline Engineering.ipynb)
 * **Data Source:** UCI Credit Card Default Dataset.
 * **Description:** An advanced data engineering and analysis project focused on building structured preprocessing pipelines (`ColumnTransformer`, `Pipeline`, `StandardScaler`, `OneHotEncoder`) to prevent data leakage. Additionally, it investigates default behavior in high credit limit outliers, evaluating whether their risk stems from excessive borrowing or liquidity management constraints.
 
