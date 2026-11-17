@@ -16,25 +16,21 @@ It serves as a portfolio documenting my progress in applying Python, data analys
 Below is the structured list of my weekly projects:
 
 ### Week 1: Apple Stock Behavior Analysis
-* **File:** [`apple-stock-behavior-python.ipynb`](apple-stock-behavior-python.ipynb)
-* **Data Source:** Financial charting dataset containing Apple stock prices.
-* **Description:** An exploratory data analysis focusing on Apple's stock price behavior (Daily Lows). The notebook investigates price movements over time to identify trends and periods of extreme deviation.
+* **File:** [`01_Apple-Stock-Behavior-Python.ipynb`](./01_Apple-Stock-Behavior-Python.ipynb)
+* **Data Source:** Financial charting dataset containing Apple stock prices (`AAPL`, 2015–2017).
+* **Description:** An exploratory data analysis focusing on Apple's daily lowest price behavior relative to its technical lower Bollinger band. The notebook investigates price movements over time to identify trends, skewness, and volatility clustering during periods of extreme downward pressure.
 
 ### Week 2: Demographic Vulnerabilities and Payment Delay Patterns
-* **File:** [`Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb`](Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb)
-* **Data Source:**  Anonymized customer dataset containing demographic metrics (e.g., age, income, location) and transaction/billing history.
+* **File:** [`02_Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb`](./02_Demographic_Vulnerabilities_and_Payment_Delay_Patterns.ipynb)
+* **Data Source:** Anonymized customer dataset containing demographic metrics (e.g., age, income, location) and transaction/billing history.
 * **Description:** An exploratory data analysis focusing on identifying core correlations between specific demographic factors and recurring patterns or trends in payment delays.
 
 ### Week 3: Credit Risk Analysis and Pipeline Engineering
-
-* **File:** [`Credit Risk Analysis and Pipeline Engineering.ipynb`](Credit%20Risk%20Analysis%20and%20Pipeline%20Engineering.ipynb)
+* **File:** [`03_Credit_Risk_Analysis_and_Pipeline_Engineering.ipynb`](./03_Credit_Risk_Analysis_and_Pipeline_Engineering.ipynb)
 * **Data Source:** UCI Credit Card Default Dataset.
 * **Description:** An advanced data engineering and analysis project focused on building structured preprocessing pipelines (`ColumnTransformer`, `Pipeline`, `StandardScaler`, `OneHotEncoder`) to prevent data leakage. Additionally, it investigates default behavior in high credit limit outliers, evaluating whether their risk stems from excessive borrowing or liquidity management constraints.
 
 ### Week 4: Evaluating Consumer Credit Risk
-
 * **File:** [`04_Evaluating_Consumer_Credit_Risk.ipynb`](./04_Evaluating_Consumer_Credit_Risk.ipynb)
 * **Data Source:** Consumer credit risk dataset (50k loan records).
 * **Description:** A machine learning and risk modeling project focused on evaluating consumer creditworthiness, feature importance, and predictive classification metrics for loan default risk.
----
-*Note: This repository will be updated weekly with new scripts and models as the course progresses.*
