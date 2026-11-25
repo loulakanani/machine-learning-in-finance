@@ -34,3 +34,9 @@ Below is the structured list of my weekly projects:
 * **File:** [`04_Evaluating_Consumer_Credit_Risk.ipynb`](./04_Evaluating_Consumer_Credit_Risk.ipynb)
 * **Data Source:** Consumer credit risk dataset (50k loan records).
 * **Description:** A machine learning and risk modeling project focused on evaluating consumer creditworthiness, feature importance, and predictive classification metrics for loan default risk.
+
+### Week 5: Early Credit Card Default Prediction — Transparent Logistic Baseline
+* **File:** [`05_Early_Default_Warning.ipynb`](./05_Early_Default_Warning.ipynb)
+* **Data Source:** Credit Card Cardholder Snapshot Dataset ($N = 1,000$ accounts, $20$ engineered features).
+* **Description:** An end-to-end, leakage-free credit risk modelling pipeline built to flag active credit cardholders at risk of next-month default for early preventive intervention. The notebook compares Ridge ($L_2$), LASSO ($L_1$), and Elastic Net regularised logistic regressions via 5-fold cross-validation (`Test ROC-AUC = 0.7845`, `Test Log-Loss = 0.4385`), translates coefficients into odds multipliers ($\exp(\beta_j)$), and evaluates cost-sensitive decision thresholds ($c = 0.20$ vs. $c = 0.50$) to balance false alarms against unflagged credit losses.
+
