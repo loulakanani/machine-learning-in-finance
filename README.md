@@ -31,7 +31,7 @@ Below is the structured list of my weekly projects:
 * **Description:** An advanced data engineering and analysis project focused on building structured preprocessing pipelines (`ColumnTransformer`, `Pipeline`, `StandardScaler`, `OneHotEncoder`) to prevent data leakage. Additionally, it investigates default behavior in high credit limit outliers, evaluating whether their risk stems from excessive borrowing or liquidity management constraints.
 
 ### Week 4: Evaluating Consumer Credit Risk
-* **File:** [`04_Evaluating_Consumer_Credit_Risk.ipynb`](./04_Evaluating_Consumer_Credit_Risk.ipynb)
+* **File:** [`04 Evaluating Consumer Credit Risk.ipynb`](./04%20Evaluating%20Consumer%20Credit%20Risk.ipynb)
 * **Data Source:** Consumer credit risk dataset (50k loan records).
 * **Description:** A machine learning and risk modeling project focused on evaluating consumer creditworthiness, feature importance, and predictive classification metrics for loan default risk.
 
